@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>Session 8</title>
+        <style>
+            body {
+                background-color: cornsilk;
+                text-align: center;
+            }
+
+            h1 {
+                color: darkorange;
+            }
+
+            h2{
+                color: darkorchid;
+            }
+
+            #idSelector {
+                color: darkseagreen;
+            }
+
+            .classSelector {
+                color: deeppink;
+            }
+
+            div {
+                background-color: dodgerblue;
+            }
+
+            div h3 {
+                color: gold;
+            }
+
+            div .descendant {
+                color: yellow;
+            }
+
+            .div1 h3 {
+                color: greenyellow;
+            }
+             
+            .div1 .text1 {
+                color: rebeccapurple;
+            }
+
+            h2, .classSelector,.div1 .text1 {
+                background: darkturquoise;
+            }
+
+            h3:nth-child(3){
+                background-color: blue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>CSS Classes, ID and Selectors</h1>
+        <h2>1. Type / Tag Selector</h2>
+        <h2 id="idSelector">2. ID Selector</h2>
+        <h2 class="classSelector">3. Class Selector</h2>
+        <div class="div1">
+            <h3 class="descendant">4. Descendant Selector</h3>
+            <h3 class="text1">5. Multiple Selector</h3>
+        </div>
+        <div>
+            <h3>nth child selector 1</h3>
+            <h3>nth child selector 2</h3>
+            <h3>nth child selector 3</h3>
+            <h3>nth child selector 4</h3>
+        </div>
+    </body>
+</html>
