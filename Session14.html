@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Session 14</title>
+        <style>
+            body {
+                background-color: darkseagreen;
+                font-family:  'Arial Narrow Bold', sans-serif;
+            }
+            label {
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Input Attributes</h1>
+        <form>
+            <fieldset>
+                <legend>Favourite Things</legend>
+                <table>
+                   
+                    <tr>
+                        <td><label for="name">Enter Name : </label></td>
+                        <td><input placeholder="Name" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="Email">Enter Email : </label></td>
+                        <td><input placeholder="username@email.com" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="animal" >Animal Lover ? :</label></td>
+                        <td><input type="radio"  name="animal" checked>Yes
+                        <input name="animal" disabled type="radio">No</td>
+                    </tr>
+                    <tr>
+                        <td><label for="phone-number">Enter Phone Number : </label></td>
+                        <td><input type="text" maxlength="10"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="dog&cat">Rate between Dog and Cat : </label></td>
+                    </tr>
+                    <tr>
+                        <td><label for="dog">Dog </label><input style="margin-bottom: 20px;" type="number" min="-5" max="5"></td>
+                        <td><label for="cat">Cat </label><input style="margin-bottom: 20px;"type="number" max="5"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" style="text-align: center; "><input type="submit"></td>
+                    </tr>
+                </table>
+        
+            </fieldset>
+        </form>
+    </body>
+</html>
