@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(231, 231, 231);
+    text-align: center;
+    font-size: 28px;
+    font-family: Tahoma;
+    color: rgb(65, 129, 225);
+    margin-top: 30px;
+}
+
+.para{
+    color:black;
+    font-size: 25px;
+    margin-top: -20px;
+}
+
+.inputBoxes {
+    width: 350px;
+    height: 50px;
+    font-size: 16px;
+    padding-left: 10px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    border-color: gainsboro;
+    border-style: solid;
+}
+
+.loginBtn{
+    width: 350px;
+    height: 50px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    border: none;
+    color: white;
+    background-color:rgb(58, 104, 231);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.forgot{
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(58, 104, 231);
+}
