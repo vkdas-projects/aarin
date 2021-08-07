@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Session 23</title>
+        <style>
+            #mycanvas
+            {
+                border: 5px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Canvas</h1>
+        <canvas id="mycanvas" width="500px" height="500px">
+        </canvas>
+    </body>
+    <script>
+        var mycanvas = document.getElementById('mycanvas');
+        var ctx = mycanvas.getContext('2d');
+
+        ctx.moveTo(0,0);
+        ctx.lineTo(200,200);
+        ctx.stroke();
+
+        ctx.beginPath();
+        ctx.arc(100,90,60,0,2 * Math.PI);
+        ctx.stroke();
+
+        ctx.beginPath();
+        ctx.rect(200,200,100,100);
+        ctx.stroke();
+
+        ctx.font = "30px Cambria";
+        ctx.fillText("Vijay Krishna", 300,100);
+
+        ctx.strokeText("Aarin Nair", 300 ,150);
+
+    </script>
+</html>
